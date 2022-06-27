@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "chatbotDesign",
+      "patterns": ["How you made of?", "How you are design?", "What is your structure?", "How you are implemented?"],
+      "responses": ["I have made of NLP and Deep learning models concepts using Pytorch and NLTK library of python."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "Which food do you sell?",
+        "What kinds of food are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell pizza and burger",
+        "We have pizza and burger"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept UPI payment?",
+        "Can I pay with Paytm?",
+        "Can I pay with Googlepay?",
+        "Can I pay with Phonepay?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept credit card, all UPI payments and cash as well",
+        "We accept most major UPI payments and cash"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery of my food take?",
+        "How much time for delivery?",
+        "When do I get my food?"
+      ],
+      "responses": [
+        "Delivery takes less than 1 hour",
+        "Shipping takes between 30 to 60 minutes"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "I burned 2000 calories today, I left my food in the oven for too long.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What is the most groundbreaking invention of all time? The shovel.",
+        "What time did you go to the dentist yesterday? Tooth-hurty."
+      ]
+    }
+  ]
+}
