@@ -1,0 +1,6 @@
+numpy
+random
+json
+torch
+nltk
+flask
