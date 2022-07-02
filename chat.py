@@ -7,7 +7,7 @@ from nltk_utils import bag_of_words, tokenize
 
 app = Flask(__name__)
 
-@app.route('/res',methods=['GET'])
+@app.route('/res',methods=['GET']) 
 def hello():
    d={}
    d['que'] = str(request.args['que'])
